@@ -30,29 +30,23 @@ header {
   font-style: Bold;
   font-size: 32px;
   line-height: 32px;
+  letter-spacing: 0.5;
   text-align: center;
   color: #ffffff;
 }
 .home {
-  letter-spacing: 0.5%;
   text-shadow: 4px 4px 4px #000000cc;
-}
-.post {
-  letter-spacing: 0.5%;
-}
-.newsletter {
-  letter-spacing: 0%;
 }
 /* section */
 section {
   width: 1440px;
   background-color: #d4f3f0;
   margin: auto;
+  padding:80px 130px
 }
 .cover-image {
   display: inline-block;
-  padding: 80px 0px 80px 126px;
-  margin-right: 116px;
+  margin-right: 115px;
   vertical-align: top;
 }
 /* article */
@@ -62,17 +56,14 @@ section {
   vertical-align: top;
 }
 .section-header {
-  display: inline-block;
   font-weight: 700px;
   font-style: Italic;
   font-size: 32px;
   line-height: 40px;
   letter-spacing: 0.5%;
   color: #06686e;
-  padding-top: 80px;
 }
 .section-text {
-  display: inline-block;
   font-weight: 400px;
   font-style: Italic;
   font-size: 18px;
@@ -109,7 +100,6 @@ footer {
   padding: 38px 632px;
 }
 .footer-header {
-  width: 132px;
   font-weight: 400px;
   font-style: Regular;
   font-size: 32px;
@@ -120,9 +110,6 @@ footer {
   text-decoration-line: underline;
   text-underline-offset: 8px;
   text-decoration-thickness: 1px;
-}
-.footer-content {
-  margin: auto;
 }
 .social-media {
   display: inline-block;
